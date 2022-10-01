@@ -4,5 +4,5 @@
     $password = "";
     $database = "db_showroom";
     
-    $connect = mysqli_connect($host, $user, $password, $database) or die("Gagal Menghubungkan")
+    $db = mysqli_connect($host, $user, $password, $database) or die("Gagal Menghubungkan")
 ?>      

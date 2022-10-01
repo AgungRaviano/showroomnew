@@ -1,0 +1,189 @@
+<style type="text/css">
+   #content{
+   	width: 50%;
+   	margin: 20px auto;
+   }
+   form{
+   	width: 50%;
+   	margin: 20px auto;
+   }
+   form div{
+   	margin-top: 5px;
+   }
+   #img_div{
+   	width: 80%;
+   	padding: 5px;
+   	margin: 15px auto;
+   	border: 1px solid #cbcbcb;
+   }
+   #img_div:after{
+   	content: "";
+   	display: block;
+   	clear: both;
+   }
+   img{
+   	float: left;
+   	margin: 5px;
+   	width: 300px;
+   	height: 140px;
+    
+   }
+   <style type="text/css">
+   #content{
+   	width: 50%;
+   	margin: 20px auto;
+   }
+   form{
+   	width: 50%;
+   	margin: 20px auto;
+   }
+   form div{
+   	margin-top: 5px;
+   }
+   #img_div{
+   	width: 80%;
+   	padding: 5px;
+   	margin: 15px auto;
+   	border: 1px solid #cbcbcb;
+   }
+   #img_div:after{
+   	content: "";
+   	display: block;
+   	clear: both;
+   }
+   img{
+   	float: left;
+   	margin: 5px;
+   	width: 300px;
+   	height: 140px;
+   }
+   body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    background: #222831;
+    height: 50px;
+    align-items: baseline;
+}
+.red{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    background: #9F3838;
+}
+.namalogo{
+    width: 1100px;
+    font-family: 'Poppins';
+    color: #ffffff;
+    font-weight: 600;
+    margin-left: 70px;
+}
+.namalogo p{
+    font-size: 30px;
+    margin: 0;
+}
+.namamotor{
+    font-family: 'Lobster';
+    font-size: 40px;
+    font-style: normal;
+    color: #565656;
+    text-shadow: 9px 9px 5px rgba(0, 0, 0, 0.25);
+}
+
+
+<tr>
+<td>$data[id]</td>
+<td>$data[image]</td>
+<td>$data[image_text]</td>
+<td>
+
+
+<!-- <?php
+            $sql = "SELECT * FROM kawasaki";
+            $query = mysqli_query ($db,$sql);
+            while($data= mysqli_fetch_array ($query)){
+                echo "
+            <tr>
+
+                <td>
+                    <a href='editform.php?id=".$data['id']."'></a>
+
+                    </a>
+                </td>
+            </tr>
+            ";
+            }
+        ?> -->
+
+.namamotor p{
+    margin: 0;
+}
+.content{
+    /* height: 100px; */
+    background-color: #000000;
+}
+.motor1{
+    margin-top: 1px;
+    background-color: #393E46;
+    height: 450px;
+    padding-top: 3px;
+    display: flex;
+}
+.imgmotor1{
+    padding-top: 3px;
+    margin-left: 10px;
+    border-right: 1px solid #000000;
+    width: 800px;
+}
+.border{
+    background: rgba(25, 28, 32, 0.68);
+    border-radius: 10px;
+    width: 700px;
+    border: 1px solid;
+    height: 400px;
+}
+.content .motor1 .imgmotor1 .border img{
+    width: 600px;
+    filter: drop-shadow(36px 0px 3px rgba(0, 0, 0, 0.25));
+}
+.textmotor1{
+    margin-top: 3px;
+    margin-left: 90px;
+    box-sizing: border-box;
+    width: 400px;
+    height: 403px;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: 1px solid;
+}
+
+.harga{
+    margin-left: 200px;
+    align-items: center;
+    display: flex;
+}
+
+.hargamotor{
+    margin-right: 40px;
+}
+.hargamotor p{
+    margin: 10px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+.btn button{
+    background: #222831;
+    border-radius: 3px;
+    border: none;
+    height: 25px;
+    cursor: pointer;
+}
+</style>
+</head>
+<body>
+   

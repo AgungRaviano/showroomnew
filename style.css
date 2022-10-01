@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    background-color: #393E46;
+}
+#img_div{
+    margin-top:5%  ;
+    margin-left: 10%;
+    display: flex;
+    margin-bottom: 20px;
+}
+#img_div img{
+    border-radius: 18px;
+    border: 3px solid black;
+}
+#img_div img:nth-child(2){
+    padding-left: -37px;
+}
+#img_div:after{
+    content: "";
+    clear: both;
+}
+#bottomtext{
+    z-index: 1;
+    background-color:#222831;
+    color: aliceblue;
+    padding-top: 90px;
+    margin-left: 80px;
+    border-radius: 18px;
+    margin-right: 90px;
+    font-size: 40px;
+    border: 3px solid black;
+    padding-right: 50px;
+}
+#bottomtext p{
+    font-size: 30px;
+}
+#img_div p{
+    margin-left: 20px;
+}
+.navbar{
+    display: flex;
+    background: #222831;
+    height: 50px;
+    align-items: baseline;
+    top: 0;
+}
+.red{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+    background: #9F3838;
+}
+.namalogo{
+    width: 1100px;
+    font-family: 'Poppins';
+    color: #ffffff;
+    font-weight: 600;
+    margin-left: 70px;
+}
+.namalogo p{
+    font-size: 30px;
+    margin: 0;
+}
+.namamotor{
+    font-family: 'Lobster';
+    font-size: 40px;
+    font-style: normal;
+    color: #565656;
+    text-shadow: 9px 9px 5px rgba(0, 0, 0, 0.25);
+}
+.namamotor p{
+    margin: 0;
+}
+.content{
+    /* height: 100px; */
+    background-color: #000000;
+}
+.motor1{
+    margin-top: 0px;
+    background-color: #393E46;
+    height: 450px;
+    padding-top: 3px;
+    display: flex;
+}
+
+.penambah{
+    margin-left: 10%;
+    background-color: #4b4b56;
+    width: 20%;
+    height: 100%;
+    padding: 15px;
+    border-radius: 9px;
+}
+a{
+    height: 20px;
+}
+button{
+    height: 20px;
+    border: none;
+    color: aliceblue;
+    background-color: #2e3135;
+    cursor: pointer;
+}
+input{
+    border: none;
+    color: aliceblue;
+    background-color: #2e3135;
+}
+.content{
+    background-color: #2e3135;
+    color: #ffffff;
+}
